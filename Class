@@ -1,0 +1,7 @@
+class Reactangle(var height:Douuble , var length:Double){
+var area = (height + length)*2
+}
+fun main(){
+val reactangle = Reactangle(10,5)
+println("reactangle area is ${Reactangle.area}")
+}
