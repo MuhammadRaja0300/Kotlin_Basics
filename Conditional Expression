@@ -1,0 +1,23 @@
+---First Method---
+fun maxOf(a:Int , b:Int) : Int{
+if(a>b){
+println("A is greater")
+return a
+}else{
+println("B is greater")
+return b
+}
+}
+fun main(){
+maxOf(10,5)
+}
+-------------------------------------
+fun myMax(a:Int,b:Int) = 
+    if(a>b)
+    println("A is Greater")
+    else
+	println("B is Greater")
+
+fun main() {
+    myMax(5,10)
+}
