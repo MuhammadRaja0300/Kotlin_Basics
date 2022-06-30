@@ -1,0 +1,8 @@
+fun main() {
+    val nameList = listOf("Muhammad" , "Abdul" , "Ghafoor" , "Ali")
+    var index = 0
+    while(index < nameList.size){
+        println("index $index is ${nameList[index]}")
+        index++
+    }
+}
