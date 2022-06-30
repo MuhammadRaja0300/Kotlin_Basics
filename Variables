@@ -1,0 +1,6 @@
+Basically we use 2 type of variables in Kotlin
+Var and Val
+Var:-
+This is a type of variable whic can be changed in code at any time we want. Like any type of variable a,b,c and e.t.c
+Val:-
+This is a type of variable whic value can not be changed like PI which value is 3.14 this is fix value we can not changed PI value
