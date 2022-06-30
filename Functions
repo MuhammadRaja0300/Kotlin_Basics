@@ -1,0 +1,28 @@
+Functions
+-----------------------------------------------------
+ReturnType Functions:-
+
+fun Sum(a:Int,b:Int,c:Int) : Int{
+return a+b+c
+}
+fun main(){
+println("Sum of $a $b $c is ")
+Sum(10,15,5)
+}
+------------------------------------------------------
+Its return type is inferred:-
+
+fun Sum(a:Int , b:Int) a+b
+fun main(){
+println("Sum of 10 and 15 is ${Sum(10,15)}")
+}
+-------------------------------------------------------
+A function that returns no meaningful value
+
+fun Subtract(a:Int,b:Int) :Unit{
+println("subtraction of $a and $b is ${a-b}")
+}
+fun main(){
+Subtract(10,5)
+}
+--------------------------------------------------------
