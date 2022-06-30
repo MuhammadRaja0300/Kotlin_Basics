@@ -1,0 +1,15 @@
+Print list items
+fun main(){
+val nameList = listOf("Muhammad" , "Abdul" , "Ghafoor" , "Ali")
+    for(item in nameList){
+        println(item)
+    }
+}
+---------------------------------------------------------------
+Find at which index whic value exists
+fun main() {
+    val nameList = listOf("Muhammad" , "Abdul" , "Ghafoor" , "Ali")
+    for(index in nameList.indices){
+        println("At index $index value is ${nameList[index]}")
+    }
+}
