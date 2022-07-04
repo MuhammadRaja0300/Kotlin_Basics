@@ -1,0 +1,14 @@
+fun main() {
+    val student = Student()
+    println("Pass status = ${student.hasPass(30)}")
+    println("Scholar Status = ${isScholar(95)}")
+}
+fun isScholar(marks: Int) : Boolean{
+    return marks > 90
+}
+class Student{
+    fun hasPass(marks : Int) : Boolean{
+        return marks > 40
+    }
+}
+------------------------------------------------------
