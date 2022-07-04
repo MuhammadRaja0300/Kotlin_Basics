@@ -1,0 +1,77 @@
+fun main() {
+    val dog = Dog()
+    dog.animalName = "Puppy"
+    println("Dog Name Is : ${dog.animalName}")
+    dog.breed = "Panther"
+    println("Dog Breed Is : ${dog.breed}")
+    dog.height = "26 inch"
+    println("Dog Height Is :${dog.height}")
+    dog.color = "Grey"
+    println("Dog Color Is : ${dog.color}")
+    println(dog.eat("Dog can eat"))
+    dog.dogBark()
+
+    println("\n-------------------------------\n")
+    val horse = Horse()
+    horse.animalName = "Aktoqli"
+    println("Horse Name Is : ${horse.animalName}")
+    horse.breed = "Arabic"
+    println("Horse Breed Is : ${horse.breed}")
+    horse.height = "5.7 feet"
+    println("Horse Height Is : ${horse.height}")
+    horse.color = "White"
+    println("Horse Color Is : ${horse.color}")
+    horse.age = "10 years"
+    println("Horse Age Is : ${horse.age}")
+    println(horse.eat("Horse Can Eat"))
+    horse.neigh()
+    println("\n-------------------------------\n")
+    val monkey = Monkey()
+    monkey.animalName = "Flare"
+    println("Monkey Name Is : ${monkey.animalName}")
+    monkey.breed = "Gorilla"
+    println("Monkey Breed Is : ${monkey.breed}")
+    monkey.age = "5 years"
+    println("Monkey age Is : ${monkey.age}")
+    monkey.uni = "Hello Monkey"
+    monkey.myuni()
+    monkey.aaoo()
+
+}
+
+open class Animal{
+    var color = ""
+    var animalName = ""
+    var height = ""
+    var age = ""
+    var breed = ""
+    fun eat(string : String) : String{
+        return string
+    }
+}
+
+class Dog : Animal(){
+
+    fun dogBark(){
+        println("Dog Barking")
+    }
+}
+
+class Horse : Animal(){
+
+    fun neigh(){
+        println("Horse Neigh")
+    }
+}
+class Monkey : Animal(){
+    var uni : String = ""
+    fun aaoo(){
+        println("aaaaooooo aaaooooo")
+    }
+    fun myuni(){
+        println(uni)
+
+    }
+}
+
+
